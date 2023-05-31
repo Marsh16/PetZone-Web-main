@@ -1,0 +1,45 @@
+.pet-hotels-page-filter-card {
+    border-radius: 15px;
+    border: 0.5px solid #cccccc;
+    box-shadow: 0 2px 6px 0.25px #d1d1d1 !important;
+}
+
+.pet-hotel-card-image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.pet-hotel-preview-icons {
+    width: 20px;
+    height: 20px;
+}
+
+.pet-hotel-card {
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 1px 5px 2px #cfcdcd !important;
+}
+
+.pet-hotel-card-text {
+    width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+    .pet-hotel-filter-right-border {
+        border-right: 2.5px solid #000000;
+    }
+
+    .pet-hotel-card-image {
+        position: absolute;
+        height: 100%;
+        width: 50%;
+        border-radius: 20px 0px 0px 20px;
+    }
+
+    .pet-hotel-card-text {
+        margin-left: 52% !important;
+        width: 50%;
+    }
+}
